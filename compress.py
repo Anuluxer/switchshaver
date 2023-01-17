@@ -45,7 +45,6 @@ if endHex == "ff":
     FILE = open(FILENAME, "a")
     FILE.truncate(truncStart)
     newSize = os.path.getsize(os.getcwd() + "//" + FILENAME)
-    print(newSize, SIZE)
     input(f"Compression complete! {round((newSize / SIZE) / 10000000000, 2)}GB saved in {round(startTime - time.time(),2)} seconds.")
 else:
     print("File either has an error or is already compressed.")
