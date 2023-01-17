@@ -1,3 +1,5 @@
+# switchshaver by Greyson Rowland (2023)
+
 import os
 import time
 
